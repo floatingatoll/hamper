@@ -6,6 +6,7 @@ hamper.db
 /bin/
 /include/
 /lib/
+/lib64/
 dropin.cache
 build/
 /_trial_temp*/
