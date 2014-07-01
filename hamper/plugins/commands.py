@@ -134,6 +134,8 @@ class Rot13(ChatCommandPlugin):
             target = ''
             if comm['target']:
                 target = comm['target'] + ': '
+            else
+                target = comm['source'] + ': '
             try:
                 args = groups[0].encode('rot13')
                 bot.reply(comm, target + args)
